@@ -1,0 +1,36 @@
+section.home{
+   height: 100vh;
+}
+section.home .row{
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+section.home .row .col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.home .row .col img{
+    margin-top: 20px;
+    width: 100%;
+}
+section.home .row .col h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+section.home .row .col h1{
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+section.home .row .col h1 span{
+    color: #45e3ff;
+}
+section.home .row .col button{
+    margin-top: 20px;
+}

@@ -13,6 +13,7 @@ section.home .row .col{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 section.home .row .col img{
     margin-top: 20px;
@@ -33,4 +34,17 @@ section.home .row .col h1 span{
 }
 section.home .row .col button{
     margin-top: 20px;
+}
+.btn-group button{
+    background: linear-gradient(90deg, #a163f7 0%, #45e3ff 100%);
+}
+@media screen and (max-width:767px) {
+    section.home .row .col h2{
+        font-size: 55px;
+    }
+    section.home .row .col h1{
+        font-size: 20px;
+        
+    }
+    
 }

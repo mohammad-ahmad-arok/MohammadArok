@@ -34,7 +34,7 @@ section.home .row .col h2 span{
     color: #45e3ff;
 }
 
-.btn-group button{
+ button{
     background: linear-gradient(90deg, #a163f7 0%, #45e3ff 100%);
     font-size: 20px;
     padding-left: 20px;
@@ -51,8 +51,12 @@ section.home .row .col h2 span{
     color: #fff;
 }
 @media screen and (max-width:767px) {
+    section.home .row{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
     section.home .row .col h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     section.home .row .col h2{
         font-size: 1rem;

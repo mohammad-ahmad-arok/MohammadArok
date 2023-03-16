@@ -1,81 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/control.css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/control.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <title>Mohammad Arok</title>
-</head>
-<body>
-<section class="home" id="home">
-<div class="container">
-    <div class="row">
-        <div class="col col-lg-6 col-sm-12">
-            <img src="assets/images/Me.png" alt="">
-        </div>
-        <div class="col col-lg-6 col-sm-12">
-            <h1 >Mohammad Arok</h1>
+  </head>
+  <body>
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-6 col-sm-12">
+            <img src="assets/images/Me.png" alt="" />
+          </div>
+          <div class="col col-lg-6 col-sm-12">
+            <h1>Mohammad Arok</h1>
             <div class="conten-text-box">
-                <h2>I'm a <span class="auto-type"></span></h2>
+              <h2>I'm a <span class="auto-type"></span></h2>
             </div>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-
-              
-                <div class="btn-group" role="group">
-                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                    <li><a class="dropdown-item" href="#" download="">Dropdown link</a></li>
-                    <li><a class="dropdown-item" target="_blank" href="./CV.html">see it</a></li>
-                  </ul>
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Button group with nested dropdown"
+            >
+              <div class="btn-group" role="group">
+                <button
+                  id="btnGroupDrop1"
+                  type="button"
+                  class="btn btn-primary dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li>
+                    <a class="dropdown-item" href="#" download=""
+                      >Dropdown link</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" target="_blank" href="./CV.html"
+                      >see it</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home  -->
+    <!-- start services -->
+    <section class="services">
+      <div class="container">
+        <div class="header">
+          <img src="assets/images/Setting.png" alt="" />
+          <h1>Services</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <img
+                src="./assets/images/programming.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Front End Development</h5>
+                <p class="card-text">
+                  The ability to develop the front end of your site in the best way and as quickly as possible .
+                </p>
+                <a href="#" class="btn btn-primary">Show More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <img
+                src="./assets/images/design.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Design</h5>
+                <p class="card-text">
+                  Able to design websites and mobile applications in the most attractive and calm forms .
+                </p>
+                <a href="#" class="btn btn-primary">Show More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services  -->
+    <!-- start skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="header">
+          <img src="assets/images/Coding Folder.png" alt="" />
+          <h1>Skills</h1>
+        </div>
+        <div class="skill-container">
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div >
+                  Html <br />
+                  <span id="number">98%</span>
                 </div>
               </div>
-        </div>
-
-    </div>
-</div>
-</section>
-<!-- end home  -->
-<!-- start services -->
-<section class="services">
-<div class="container">
-  <div class="header">
-    <img src="assets/img/Setting.png" alt="" />
-    <h1>Services</h1>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card">
-        <img src="./assets/images/cardimg.svg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div id="number">
+                  Html <br />
+                  <span>98%</span>
+                </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div id="number">
+                  Html <br />
+                  <span>98%</span>
+                </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div id="number">
+                  Html <br />
+                  <span>98%</span>
+                </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div id="number">
+                  Html <br />
+                  <span>98%</span>
+                </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div id="number">
+                  Html <br />
+                  <span>98%</span>
+                </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          
       </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <img src="./assets/images/cardimg.svg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-<script src="./assets/js/text animation.js"></script>
-
-
-
-</body>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="./assets/js/text animation.js"></script>
+    <script src="./assets/js/skills.js"></script>
+  </body>
 </html>

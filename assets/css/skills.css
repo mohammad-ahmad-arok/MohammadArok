@@ -1,0 +1,92 @@
+
+.skill-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+section.skills .skill_stily {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 40px;
+}
+
+section.skills .outer {
+    height: 138px;
+    width: 138px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 18px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(0, 0, 0, 0.7);
+}
+
+section.skills .outer .inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section.skills .outer .inner #number {
+    font-weight: 600;
+    color: var(--font-color);
+    text-align: center;
+    font-size: 22px;
+}
+
+section.skills .outer .inner #number span {
+    font-weight: 600;
+    color: #b6b6b6;
+    font-size: 20px;
+}
+section.skills svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section.skills circle#sk_1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 15px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animsk_1 2s linear forwards;
+    -webkit-animation: animsk_1 2s linear forwards;
+}
+
+
+@keyframes animsk_1 {
+    100% {
+        /* 472 - ( 472 *$النسبة  ) / 100*/
+        stroke-dashoffset: calc(472 - (472 *98) /100);
+    }
+
+}
+@media screen and (max-width: 768px) {
+    section.skills .skill_stily {
+        margin: 12px;
+    }
+}
+
+
+

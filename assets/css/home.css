@@ -34,15 +34,7 @@ section.home .row .col h2 span{
     color: #45e3ff;
 }
 
- button{
-    background: linear-gradient(90deg, #a163f7 0%, #45e3ff 100%);
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 20px;
-    outline: none;
-    border: none;
-}
+
 .btn-group ul{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
     backdrop-filter: blur(15px);

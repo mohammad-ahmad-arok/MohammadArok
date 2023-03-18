@@ -1,6 +1,6 @@
 
 .skill-container {
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -10,8 +10,6 @@
 }
 
 section.skills .skill_stily {
-    width: 150px;
-    height: 150px;
     position: relative;
     margin: 40px;
 }
@@ -24,7 +22,7 @@ section.skills .outer {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    padding: 18px;
+    padding: 19.4px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
         -6px -6px 10px -1px rgba(0, 0, 0, 0.7);
 }
@@ -64,27 +62,38 @@ section.skills svg {
     top: 0;
     left: 0;
 }
-section.skills circle#sk_1 {
-    fill: none;
-    stroke: url(#GradientColor);
-    stroke-width: 15px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
-    animation: animsk_1 2s linear forwards;
-    -webkit-animation: animsk_1 2s linear forwards;
+section.skills circle {
+   fill: none;
+   stroke:url(#GradientColor);
+   stroke-width: 15px;
+   stroke-dasharray: 364;
+   stroke-dashoffset: 364;
+   transition: 2s ease-in-out ;
+   -webkit-transition: 2s ease-in-out ;
+   -moz-transition: 2s ease-in-out ;
+   -ms-transition: 2s ease-in-out ;
+   -o-transition: 2s ease-in-out ;
 }
 
-
-@keyframes animsk_1 {
-    100% {
-        /* 472 - ( 472 *$النسبة  ) / 100*/
-        stroke-dashoffset: calc(472 - (472 *98) /100);
-    }
+.conten{
+    width: 100px;
+    height: 100px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
 
 }
+.conten .number{
+    margin-top: -20px;
+}
+
 @media screen and (max-width: 768px) {
     section.skills .skill_stily {
-        margin: 12px;
+        margin: 10px;
     }
 }
 

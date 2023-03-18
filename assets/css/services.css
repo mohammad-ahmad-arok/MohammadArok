@@ -1,9 +1,4 @@
-section.services{
-    margin-top: 50px;
-}
-section.services .row {
 
-}
 section.services .row .card{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
     backdrop-filter: blur(15px);

@@ -3,6 +3,7 @@
 @import url(./home.css);
 @import url(./services.css);
 @import url(./skills.css);
+@import url(./portfolio.css);
 
 *{
     padding: 0;
@@ -64,7 +65,9 @@ body{
     background-image: var(--body-color);
     overflow-x: hidden;
 }
-
+section{
+    margin-top: 50px;
+}
 section .header {
     width: 100%;
     display: flex;

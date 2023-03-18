@@ -1,0 +1,9 @@
+{
+  "card":{
+    "titel":"test",
+    "explain":"lorem for test it",
+    "img":"./assets/images/login.jpg",
+    "link":"",
+    "type":"web"
+  }
+}

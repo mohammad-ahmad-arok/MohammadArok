@@ -1,9 +1,25 @@
 {
-  "card":{
-    "titel":"test",
-    "explain":"lorem for test it",
-    "img":"./assets/images/login.jpg",
-    "link":"",
-    "type":"web"
-  }
+  "card": [
+    {
+      "titel": "test",
+      "explain": "lorem for test it",
+      "img": "./assets/images/login.jpg",
+      "link": "",
+      "type": "web"
+    },
+    {
+      "titel": "test",
+      "explain": "lorem for test it",
+      "img": "./assets/images/login.jpg",
+      "link": "",
+      "type": "web"
+    },
+    {
+      "titel": "mohammad",
+      "explain": "lorem for test it",
+      "img": "./assets/images/login.jpg",
+      "link": "",
+      "type": "Graphic"
+    }
+  ]
 }

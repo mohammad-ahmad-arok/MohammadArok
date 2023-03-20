@@ -29,16 +29,27 @@ const web = document.getElementById('web');
 const Graphic = document.getElementById('Graphic');
 
 const CardData = data.card;
+let i = 0;
+while (i < CardData.length) {
+    const card= `<div class="card-wrapper">  
+    <div class="card-top">  
+     <img class="image" src="${CardData[i].img}">  
+    </div>  
+    <div class="card-bottom">  
+     <span class="top-text">${CardData[i].titel}</span><br>  
+     <span class="bottom-text">${CardData[i].explain}</span>  
+     <br>  
+     <a href="#" class="link-btn"><i class='bx bx-link-alt' ></i></a> 
+    </div>  
+    </div> `;
+    all.innerHTML += card;
+    if (CardData[i].type == 'web') {
+        web.innerHTML += card;
+    
+    } else {
+        Graphic.innerHTML += card;
+}
+    i = i + 1;
+} 
 
-var card = `<div class="card-wrapper">  
-<div class="card-top">  
- <img class="image" src="${CardData.img}">  
-</div>  
-<div class="card-bottom">  
- <span class="top-text">${CardData.titel}</span><br>  
- <span class="bottom-text">${CardData.explain}</span>  
- <br>  
- <a href="#" class="link-btn"></a> 
-</div>  
-</div> `;
-all.innerHTML=card;
+

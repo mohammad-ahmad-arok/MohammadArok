@@ -39,7 +39,7 @@ while (i < CardData.length) {
      <span class="top-text">${CardData[i].titel}</span><br>  
      <span class="bottom-text">${CardData[i].explain}</span>  
      <br>  
-     <a href="#" class="link-btn"><i class='bx bx-link-alt' ></i></a> 
+     <a href="${CardData[i].link}" class="link-btn"><i class='bx bx-link-alt' ></i></a> 
     </div>  
     </div> `;
     all.innerHTML += card;

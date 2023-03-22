@@ -1,0 +1,93 @@
+.col img{
+    max-width: 100%;
+}
+
+.menu{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+ .menu li{
+    position: absolute;
+    list-style: none;
+    left:0;
+    transform-origin: 200px;
+    transition:all 0.9s ease-in-out;
+    transition-delay: calc(0.9s * var(--i));
+    -webkit-transition:all 0.9s ease-in-out;
+    -moz-transition:all 0.9s ease-in-out;
+    -ms-transition:all 0.9s ease-in-out;
+    -o-transition:all 0.9s ease-in-out;
+    transform: rotate(0deg) translateX(150px);
+    -webkit-transform: rotate(0deg) translateX(150px);
+    -moz-transform: rotate(0deg) translateX(150px);
+    -ms-transform: rotate(0deg) translateX(150px);
+    -o-transform: rotate(0deg) translateX(150px);
+}
+.menu.active li{
+    transform: rotate(calc(360deg /8 * var(--i)));
+    -webkit-transform: rotate(calc(360deg /8 * var(--i)));
+    -moz-transform: rotate(calc(360deg /8 * var(--i)));
+    -ms-transform: rotate(calc(360deg /8 * var(--i)));
+    -o-transform: rotate(calc(360deg /8 * var(--i)));
+}
+.menu li  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    -webkit-transform: rotate(calc(360deg / -8 * var(--i)));
+    -moz-transform: rotate(calc(360deg / -8 * var(--i)));
+    -ms-transform: rotate(calc(360deg / -8 * var(--i)));
+    -o-transform: rotate(calc(360deg / -8 * var(--i)));
+    transition:all 0.9s ease-in-out;
+    -webkit-transition:all 0.9s ease-in-out;
+    -moz-transition:all 0.9s ease-in-out;
+    -ms-transition:all 0.9s ease-in-out;
+    -o-transition:all 0.9s ease-in-out;
+}
+.menu li img{
+    width: 100px;
+    z-index: -1;
+}
+.toggle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0,0,0,0.15);
+    font-size: 2rem;
+    transition: transform 1.25s;
+    -webkit-transition: transform 1.25s;
+    -moz-transition: transform 1.25s;
+    -ms-transition: transform 1.25s;
+    -o-transition: transform 1.25s;
+}
+.menu.active .toggle{
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+} 
+

@@ -1,23 +1,23 @@
 {
   "card": [
     {
-      "titel": "test",
+      "titel": "Calculator",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./vendor/src/Calculator/index.html",
       "link": "",
       "type": "web"
     },
     {
-      "titel": "test",
+      "titel": "food",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./vendor/src/food/index.html",
       "link": "",
       "type": "web"
     },
     {
-      "titel": "mohammad",
+      "titel": "Login",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./vendor/src/login/index.html",
       "link": "",
       "type": "Graphic"
     }

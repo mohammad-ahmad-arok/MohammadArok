@@ -68,6 +68,9 @@ body{
 section{
     margin-top: 50px;
 }
+section.home{
+    margin-top: 0px;
+}
 section .header {
     width: 100%;
     display: flex;
@@ -96,5 +99,29 @@ a.btn{
     margin-top: 20px;
     outline: none;
     border: none;
+
+}
+.btn-top{
+    position: fixed;
+    bottom:3%;
+    right: 2%;
+    background: linear-gradient(90deg, #a163f7 0%, #45e3ff 100%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 10000;
+    display: block;
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+}
+.btn-top i{
+    font-size: 1.2rem;
+    padding: 20px;
+    cursor: pointer;
 
 }

@@ -3,22 +3,29 @@
     {
       "titel": "Calculator",
       "explain": "lorem for test it",
-      "img": "./vendor/src/Calculator/index.html",
-      "link": "",
+      "img": "./assets/images/login.jpg",
+      "link": "./vendor/src/Calculator/index.html",
       "type": "web"
     },
     {
       "titel": "food",
       "explain": "lorem for test it",
-      "img": "./vendor/src/food/index.html",
-      "link": "",
+      "img": "./assets/images/login.jpg",
+      "link": "./vendor/src/food/index.html",
       "type": "web"
     },
     {
       "titel": "Login",
       "explain": "lorem for test it",
-      "img": "./vendor/src/login/index.html",
-      "link": "",
+      "img": "./assets/images/login.jpg",
+      "link": "./vendor/src/login/index.html",
+      "type": "Graphic"
+    },
+    {
+      "titel": "boot",
+      "explain": "lorem for test it",
+      "img": "./assets/images/login.jpg",
+      "link": "./vendor/src/boot/index.html",
       "type": "Graphic"
     }
   ]

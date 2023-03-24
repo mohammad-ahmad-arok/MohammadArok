@@ -56,10 +56,10 @@
     -ms-transition:all 0.9s ease-in-out;
     -o-transition:all 0.9s ease-in-out;
 }
-.menu li img{
+/* .menu li img{
     width: 100px;
     z-index: -1;
-}
+} */
 .toggle{
     position: absolute;
     width: 100px;

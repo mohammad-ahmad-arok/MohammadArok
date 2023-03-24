@@ -3,7 +3,7 @@ window.onscroll = () => {
     scrollfun();
 }
 function scrollfun(params) {
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop>400) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop>500) {
     btnTop.style.display = 'block';
 }
 else {
@@ -18,24 +18,4 @@ btnTop.addEventListener('click', () => {
 })
 
 
-// for animation contact
 
-let toggle = document.querySelector('.toggle');
-let menu = document.querySelector('.menu');
-let contact = document.querySelector('.contact');
-
-
-console.log(contact.offsetTop);
-
-window.onscroll = () => {
-    scrollfun();
-}
-function scrollfun(params) {
-    if (document.body.scrollTop > 1700 || document.documentElement.scrollTop>1700) {
-        menu.classList.toggle('active');
-}
-else {
-    menu.classList.remove('active');
-}
-
-}

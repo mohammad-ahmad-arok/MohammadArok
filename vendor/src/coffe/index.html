@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/titel_logo.svg" />
+    <!-- font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- css file -->
+    <link rel="stylesheet" href="css/stely.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+    <title>coffe</title>
+  </head>
+
+  <body>
+    <div id="loding"></div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span>
+                  <i class="bx bx-search-alt"></i>
+                  <input type="text" placeholder="Search ..." />
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bx bx-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start home -->
+    <section class="home">
+      <img id="img1" class="position-absolute" src="img/img2.svg" alt="" />
+      <img id="img2" class="position-absolute" src="img/img2.svg" alt="" />
+      <div class="container">
+        <div class="row">
+          <div
+            class="text col col-lg-6 col-sm-12"
+            data-0-top="opacity:0;left:100px;"
+            data-200-top="opacity:100;left:0px;"
+          >
+            <h1>Enjoy your <span>coffee</span> before your activity</h1>
+            <p>
+              Boost your productivity and build your mood with a glass of coffee
+              in the morning
+            </p>
+            <button>
+              Order now <span><i class="bx bx-cart"></i></span>
+            </button>
+          </div>
+          <div class="col col-lg-6 col-sm-12">
+            <img src="./img/coffe-home.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home  -->
+    <!-- satrt popular -->
+    <section class="popular">
+      <div class="container">
+        <h1>Popular <span>Now</span></h1>
+        <div class="row">
+          <div class="col">
+            <div class="box">
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/img-box-2.svg" alt="" />
+              <p>
+                Espresso
+                <span>12K</span>
+              </p>
+              <button class="btn btn-outline-info">Hot</button>
+              <button class="btn btn-outline-info">Cold</button>
+              <i id="card" class="bx bx-cart"></i>
+            </div>
+          </div>
+          <div class="col">
+            <div id="box" class="box">
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/img-box-1.svg" alt="" />
+              <p>
+                Vanilla latte
+                <span>21K</span>
+              </p>
+              <button class="btn btn-outline-info">Hot</button>
+              <button class="btn btn-outline-info">Cold</button>
+              <i id="card" class="bx bx-cart"></i>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/img-box-3.svg" alt="" />
+              <p>
+                Hazelnut
+                <span>34K</span>
+              </p>
+              <button class="btn btn-outline-info">Hot</button>
+              <button class="btn btn-outline-info">Cold</button>
+              <i id="card" class="bx bx-cart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end popular -->
+    <!-- start service -->
+
+    <section class="service">
+      <div class="container">
+        <p>How to use delivery <span>service</span></p>
+        <div class="row">
+          <div class="col">
+            <div class="box">
+              <img src="img/service-box-1.svg" alt="" />
+              <h4>choose your coffee</h4>
+              <p>there are 20+ coffees for you</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <img src="img/service-box-2.svg" alt="" />
+              <h4>we delivery it to you</h4>
+              <p>Choose delivery service</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <img src="img/service-box-3.svg" alt="" />
+              <h4>Enjoy your coffee</h4>
+              <p>Choose delivery service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end service -->
+    <!-- start about -->
+    <section class="about container">
+      <img id="back" src="img/shado-back-about.svg" alt="" />
+      <div class="row">
+        <div class="col">
+          <img src="img/about-img.svg" alt="" />
+        </div>
+        <div class="col" id="text">
+          <h2>About <span>Us</span></h2>
+          <h5>We provide quality coffee, and ready to deliver.</h5>
+          <p>
+            We are a company that makes and distributes delicious drinks. our
+            main product is made with a secret recipe and available in stores
+            worldwide.
+          </p>
+          <button>Get your coffee</button>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- start menu -->
+    <section class="menu">
+      <div class="container">
+        <h1>Special menu <span>for you</span></h1>
+        <div class="row">
+          <div class="col">
+            <div
+              class="box"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/menu-1.svg" alt="" />
+              <p>
+                Sandwich
+                <span>34K</span>
+              </p>
+              <div class="buttom-text">
+                <p>bread with meat and vegetables</p>
+                <i id="card" class="bx bx-cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box" data-aos="fade-up" data-aos-duration="3000">
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/menu-2.svg" alt="" />
+              <p>
+                Hot Milk
+                <span>14K</span>
+              </p>
+              <div class="buttom-text">
+                <p>Hot Milk with less sugar</p>
+                <i id="card" class="bx bx-cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="box"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/menu-3.svg" alt="" />
+              <p>
+                Coffe Ice
+                <span>12K</span>
+              </p>
+              <div class="buttom-text">
+                <p>Coffe with ice cream vanilla</p>
+                <i id="card" class="bx bx-cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="box"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/menu-4.svg" alt="" />
+              <p>
+                Cappucino
+                <span>26K</span>
+              </p>
+              <div class="buttom-text">
+                <p>Hot Cappucino</p>
+                <i id="card" class="bx bx-cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box" data-aos="fade-up" data-aos-duration="3000">
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/menu-5.svg" alt="" />
+              <p>
+                Moccacinno
+                <span>17K</span>
+              </p>
+              <div class="buttom-text">
+                <p>Hot Moccacino</p>
+                <i id="card" class="bx bx-cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="box"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <span
+                ><p class="thre">4.8 <i class="bx bxs-star"></i></p
+              ></span>
+              <img src="img/menu-6.svg" alt="" />
+              <p>
+                Waffle Ice
+                <span>34K</span>
+              </p>
+              <div class="buttom-text">
+                <p>Wafle with Ice cream</p>
+                <i id="card" class="bx bx-cart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end menu -->
+    <!-- start say -->
+    <section class="say">
+      <div class="background">
+        <img id="back" src="img/shado-back-say.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-5">
+            <div class="text-box">
+              <h1>What they say about us</h1>
+              <p>
+                We always provide the best service and always maintain the
+                quality of coffee
+              </p>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-lg-7 card-slid">
+            <div class="slide-container swiper">
+              <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-1.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-2.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-1.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-3.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-1.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-2.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      
+
+                      <div class="card-image">
+                        <img src="img/slider-3.svg" alt="" class="card-img" />
+                      </div>
+                    </div>
+
+                    <div class="card-content">
+                      <h2 class="name">Naura</h2>
+                      <p class="description">
+                        I really love the cappucino, the coffee was very smooth
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end say -->
+    <!-- start footer -->
+    <section class="footer ">
+        <div class="container" data-aos="zoom-in-up">
+            <h1>Subscribe to get 50% discount price</h1>
+            <span>
+            <input type="text" placeholder="Email address">
+            <button>Order now</button>
+            </span>
+        </div>
+    </section> 
+    <!-- end footer -->
+    <!-- start by -->
+     <div class="box" id="by">
+        <h1>Mohammad Arok</h1>
+        <p>+963 938 827 224</p>
+        <p>Mohammad.Arok.com</p>
+    </div>
+    <!-- end -->
+    <!-- Swiper JS -->
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/all.min.js "></script>
+
+    <script>
+      var loder = document.getElementById("loding");
+      window.addEventListener("load", function () {
+        loder.style.display = "none";
+      });
+    </script>
+  </body>
+</html>

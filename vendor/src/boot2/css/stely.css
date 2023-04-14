@@ -32,6 +32,10 @@ section.home .row .col.img{
 section.home .row .col  img{
     width:500px;
 }
+    footer .row .col #icon_con i {
+        font-size:20px;
+        padding: 10px;
+    }
 
 section.home .row .col .box_text{
     padding-left: 40px;

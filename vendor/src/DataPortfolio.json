@@ -3,14 +3,14 @@
     {
       "titel": "Calculator",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/culculeter.jpg",
       "link": "./vendor/src/Calculator/index.html",
       "type": "web"
     },
     {
       "titel": "food",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/food.jpg",
       "link": "./vendor/src/food/index.html",
       "type": "web"
     },
@@ -24,7 +24,7 @@
     {
       "titel": "boot",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/boot.jpg",
       "link": "./vendor/src/boot/index.html",
       "type": "Graphic"
     }
@@ -32,23 +32,16 @@
     {
       "titel": "boot2",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/boot2.jpg",
       "link": "./vendor/src/boot2/index.html",
       "type": "Graphic"
     }
     ,
+   
     {
       "titel": "color",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
-      "link": "./vendor/src/color/index.html",
-      "type": "Graphic"
-    }
-    ,
-    {
-      "titel": "color",
-      "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/color.jpg",
       "link": "./vendor/src/roundom color/index.html",
       "type": "Graphic"
     }
@@ -56,7 +49,7 @@
     {
       "titel": "software company",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/softwaer.jpg",
       "link": "./vendor/src/software company/index.html",
       "type": "Graphic"
     }
@@ -64,7 +57,7 @@
     {
       "titel": "web_for_soft_company",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/softwaer2.jpg",
       "link": "./vendor/src/web_for_soft_company/index.html",
       "type": "Graphic"
     }
@@ -72,7 +65,7 @@
     {
       "titel": "coffe",
       "explain": "lorem for test it",
-      "img": "./assets/images/login.jpg",
+      "img": "./assets/images/coffe.jpg",
       "link": "./vendor/src/coffe/index.html",
       "type": "Graphic"
     }

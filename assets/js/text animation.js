@@ -1,6 +1,6 @@
 // text animation
 var typed = new Typed(".auto-type", {
-    strings: ["UX/UI Disiner", "front end dev"],
+    strings: ["UX/UI Designer", "Full Stack Web Developer"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true,

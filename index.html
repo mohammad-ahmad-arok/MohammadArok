@@ -17,6 +17,15 @@
     <title>Mohammad Arok</title>
   </head>
   <body>
+
+    <!-- loding -->
+    <div class="loading-screen" id="loading-screen">
+      <img src="./assets/images/loading.png" alt="">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <!-- end -->
     <div class="btn-top"><i class='bx bxs-chevrons-up' id="btn-top"></i></div>
     <section class="home" id="home">
       <div class="container">
@@ -268,6 +277,32 @@
               <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
             </svg>
           </div>
+          
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div class="conten">
+                  <h4>JSON</h4><br/>
+                <div class="number" data-num="70">
+                </div>
+                </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
+            </svg>
+          </div>
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
@@ -393,56 +428,7 @@
               <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
             </svg>
           </div>
-          <div class="skill_stily">
-            <div class="outer">
-              <div class="inner">
-                <div class="conten">
-                  <h4>Ps</h4><br/>
-                <div class="number" data-num="65">
-                </div>
-                </div>
-              </div>
-            </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              width="150px"
-              height="150px"
-            >
-              <defs>
-                <linearGradient id="GradientColor">
-                  <stop offset="10%" stop-color="#a163f7" />
-                  <stop offset="100%" stop-color="#45e3ff" />
-                </linearGradient>
-              </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
-            </svg>
-          </div>
-          <div class="skill_stily">
-            <div class="outer">
-              <div class="inner">
-                <div class="conten">
-                  <h4>Ai</h4><br/>
-                <div class="number" data-num="80">
-                </div>
-                </div>
-              </div>
-            </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              width="150px"
-              height="150px"
-            >
-              <defs>
-                <linearGradient id="GradientColor">
-                  <stop offset="10%" stop-color="#a163f7" />
-                  <stop offset="100%" stop-color="#45e3ff" />
-                </linearGradient>
-              </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
-            </svg>
-          </div>
+          
           
           
           
@@ -468,7 +454,6 @@
           <div class="portfolio-content">  
            <div class="content active" id="all">  
              
-             <a href=""></a>
            </div>  
    
            <div class="content" id="web">  
@@ -556,5 +541,6 @@
     <script type="module" src="./assets/js/portfolio.js"></script>
     <script src="assets/js/btn-top.js"></script>
     <script src="assets/js/contact.js"></script>
+    <script src="assets/js/loader.js"></script>
   </body>
 </html>

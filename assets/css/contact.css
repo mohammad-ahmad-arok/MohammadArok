@@ -4,8 +4,8 @@
 
 .menu{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     position: absolute;
     list-style: none;
     left:0;
-    transform-origin: 200px;
+    transform-origin: 175px;
     transition:all 0.9s ease-in-out;
     transition-delay: calc(0.9s * var(--i));
     -webkit-transition:all 0.9s ease-in-out;
@@ -57,13 +57,13 @@
     -o-transition:all 0.9s ease-in-out;
 }
 .menu li img{
-    width: 100px;
+    width: 90px;
     z-index: -1;
 }
 .toggle{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background: #fff;
     display: flex;
     justify-content: center;

@@ -1,11 +1,12 @@
-/* ===== Google Font Import - Poppins ===== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* ===== Google Font Import - Merienda ===== */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
 @import url(./home.css);
 @import url(./services.css);
 @import url(./skills.css);
 @import url(./portfolio.css);
 @import url(./contact.css);
 @import url(./footer.css);
+@import url(./loading.css);
 
 *{
     padding: 0;
@@ -18,7 +19,7 @@
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     color: var(--font-color);
-    font-family: 'Poppins';
+    font-family: 'Merienda';
 
 }
 /* ===== Colours ===== */
@@ -28,6 +29,7 @@
         --body-color: linear-gradient(180deg, rgb(42, 47, 80) 0%, #4757a0 100%);
         --font-color: #ffffff;
         --scrollbar: linear-gradient(180deg, #a163f7 0%, #45e3ff 100%);
+        --scrollbar-horzentel: linear-gradient(90deg, #a163f7 0%, #45e3ff 100%);
 
     }
 }
@@ -37,6 +39,7 @@
         --body-color: linear-gradient(180deg, rgb(255,254,241) 0%, #45e3ff 100%);
         --font-color: #000000;
         --scrollbar: linear-gradient(180deg, #45e3ff 0%, #a163f7 100%);
+        --scrollbar-horzentel: linear-gradient(90deg, #45e3ff 0%, #a163f7 100%);
 
     }
 }

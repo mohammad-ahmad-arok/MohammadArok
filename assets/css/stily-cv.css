@@ -134,7 +134,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background:var(--scrollbar);
+    background:var(--scrollbar-horzentel);
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -182,7 +182,9 @@ p {
     color: var(--font-color-2);
     font-weight: 600;
 }
-
+.about .box .text{
+    margin-left: 5%;
+}
 .about .box .text h4 {
     text-transform: uppercase;
     color: #00C4F0;
@@ -247,5 +249,8 @@ p {
     }
     .skills .box {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .about .box .text{
+        margin-left:0%;
     }
 }

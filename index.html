@@ -4,34 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/control.css" />
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
+    <meta
+      name="description"
+      content="Personal website for Mohamed Ahmed Arouk,
+    a web programmer and UI/UX designer, showcasing his resume and previous
+    works. You can connect with him via email, LinkedIn, whatsapp ... etc .."
     />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- === LOGO ICON === -->
+    <link rel="shortcut icon" type="x-icon" href="/assets/images/logo.png" />
+    <!-- ===CSS FILE -->
+    <link rel="stylesheet" href="./assets/css/control.css" />
+    <!-- BOOTSTRAP FILE -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- AOS  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Mohammad Arok</title>
   </head>
   <body>
-
     <!-- loding -->
     <div class="loading-screen" id="loading-screen">
-      <img src="./assets/images/loading.png" alt="">
+      <img src="./assets/images/loading.png" alt="loding" />
       <div class="spinner-border" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
     </div>
     <!-- end -->
-    <div class="btn-top"><i class='bx bxs-chevrons-up' id="btn-top"></i></div>
+    <div class="btn-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m12 3.879-7.061 7.06 2.122 2.122L12 8.121l4.939 4.94 2.122-2.122z"
+        ></path>
+        <path
+          d="m4.939 17.939 2.122 2.122L12 15.121l4.939 4.94 2.122-2.122L12 10.879z"
+        ></path>
+      </svg>
+    </div>
     <section class="home" id="home">
       <div class="container">
         <div class="row">
           <div class="col col-lg-6 col-sm-12">
-            <img src="assets/images/Me.png" alt="" data-aos="zoom-out-down" />
+            <img
+              src="assets/images/Me.png"
+              alt="Mohammad Arok"
+              data-aos="zoom-out-down"
+            />
           </div>
           <div class="col col-lg-6 col-sm-12">
             <h1 data-aos="zoom-out-up">Mohammad Arok</h1>
@@ -43,7 +64,7 @@
               role="group"
               aria-label="Button group with nested dropdown"
             >
-              <div class="btn-group" role="group" >
+              <div class="btn-group" role="group">
                 <button
                   id="btnGroupDrop1"
                   type="button"
@@ -56,12 +77,20 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                   <li>
-                    <a class="dropdown-item" href="#" download=""
+                    <a
+                      title="dropdown"
+                      class="dropdown-item"
+                      href="#"
+                      download=""
                       >Dropdown link</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" target="_blank" href="./CV.html"
+                    <a
+                      title="dropdown"
+                      class="dropdown-item"
+                      target="_blank"
+                      href="./CV.html"
                       >see it</a
                     >
                   </li>
@@ -77,7 +106,7 @@
     <section class="services">
       <div class="container">
         <div class="header">
-          <img src="assets/images/Setting.png" alt="" />
+          <img src="assets/images/Setting.png" alt="Setting" />
           <h1>Services</h1>
         </div>
         <div class="row">
@@ -86,15 +115,24 @@
               <img
                 src="./assets/images/programming.png"
                 class="card-img-top"
-                alt="..." 
+                alt="programming"
                 data-aos="zoom-in-right"
               />
               <div class="card-body">
-                <h5 class="card-title" data-aos="fade-down">Front End Development</h5>
+                <h5 class="card-title" data-aos="fade-down">
+                  Front End Development
+                </h5>
                 <p class="card-text" data-aos="fade-up">
-                  The ability to develop the front end of your site in the best way and as quickly as possible .
+                  The ability to develop the front end of your site in the best
+                  way and as quickly as possible .
                 </p>
-                <a href="#" class="btn btn-primary" data-aos="fade-left">Show More</a>
+                <a
+                  href="#portfolio"
+                  class="btn btn-primary"
+                  data-aos="fade-left"
+                  title="Show More"
+                  >Show More</a
+                >
               </div>
             </div>
           </div>
@@ -103,15 +141,22 @@
               <img
                 src="./assets/images/design.png"
                 class="card-img-top"
-                alt="..."
+                alt="design"
                 data-aos="zoom-in-left"
               />
               <div class="card-body">
                 <h5 class="card-title" data-aos="fade-down">Design</h5>
                 <p class="card-text" data-aos="fade-up">
-                  Able to design websites and mobile applications in the most attractive and calm forms .
+                  Able to design websites and mobile applications in the most
+                  attractive and calm forms .
                 </p>
-                <a href="#" class="btn btn-primary" data-aos="fade-right">Show More</a>
+                <a
+                  href="#portfolio"
+                  class="btn btn-primary"
+                  data-aos="fade-right"
+                  title="Show More"
+                  >Show More</a
+                >
               </div>
             </div>
           </div>
@@ -123,7 +168,7 @@
     <section class="skills" id="skills">
       <div class="container">
         <div class="header">
-          <img src="assets/images/Coding Folder.png" alt="" />
+          <img src="assets/images/Coding Folder.png" alt="Coding" />
           <h1>Skills</h1>
         </div>
         <div class="skill-container">
@@ -131,9 +176,9 @@
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>Html</h4><br/>
-                <div class="number" data-num="98">
-                </div>
+                  <h4>Html</h4>
+                  <br />
+                  <div class="number" data-num="98"></div>
                 </div>
               </div>
             </div>
@@ -149,16 +194,22 @@
                   <stop offset="100%" stop-color="#45e3ff" />
                 </linearGradient>
               </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round" style="--clr:75"  />
+              <circle
+                cx="68"
+                cy="68"
+                r="58"
+                stroke-linecap="round"
+                style="--clr: 75"
+              />
             </svg>
           </div>
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>Css</h4><br/>
-                <div class="number" data-num="98" >
-                </div>
+                  <h4>Css</h4>
+                  <br />
+                  <div class="number" data-num="98"></div>
                 </div>
               </div>
             </div>
@@ -181,34 +232,9 @@
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>Js</h4><br/>
-                <div class="number" data-num="80">
-                </div>
-                </div>
-              </div>
-            </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              width="150px"
-              height="150px"
-            >
-              <defs>
-                <linearGradient id="GradientColor">
-                  <stop offset="10%" stop-color="#a163f7" />
-                  <stop offset="100%" stop-color="#45e3ff" />
-                </linearGradient>
-              </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
-            </svg>
-          </div>
-          <div class="skill_stily">
-            <div class="outer">
-              <div class="inner">
-                <div class="conten">
-                  <h4>Bootstrap</h4><br/>
-                <div class="number" data-num="90">
-                </div>
+                  <h4>Js</h4>
+                  <br />
+                  <div class="number" data-num="80"></div>
                 </div>
               </div>
             </div>
@@ -231,9 +257,34 @@
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>React</h4><br/>
-                <div class="number" data-num="70">
+                  <h4 style="font-size: 18px">Bootstrap</h4>
+                  <br />
+                  <div class="number" data-num="90"></div>
                 </div>
+              </div>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div class="conten">
+                  <h4>React</h4>
+                  <br />
+                  <div class="number" data-num="70"></div>
                 </div>
               </div>
             </div>
@@ -256,9 +307,9 @@
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>Java</h4><br/>
-                <div class="number" data-num="65">
-                </div>
+                  <h4>Java</h4>
+                  <br />
+                  <div class="number" data-num="65"></div>
                 </div>
               </div>
             </div>
@@ -277,14 +328,40 @@
               <circle cx="68" cy="68" r="58" stroke-linecap="round" id="sk_1" />
             </svg>
           </div>
-          
+
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>JSON</h4><br/>
-                <div class="number" data-num="70">
+                  <h4>JSON</h4>
+                  <br />
+                  <div class="number" data-num="70"></div>
                 </div>
+              </div>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="150px"
+              height="150px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="10%" stop-color="#a163f7" />
+                  <stop offset="100%" stop-color="#45e3ff" />
+                </linearGradient>
+              </defs>
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="skill_stily">
+            <div class="outer">
+              <div class="inner">
+                <div class="conten">
+                  <h4>C#</h4>
+                  <br />
+                  <div class="number" data-num="65"></div>
                 </div>
               </div>
             </div>
@@ -300,16 +377,16 @@
                   <stop offset="100%" stop-color="#45e3ff" />
                 </linearGradient>
               </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" />
             </svg>
           </div>
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>C#</h4><br/>
-                <div class="number" data-num="65">
-                </div>
+                  <h4>Php</h4>
+                  <br />
+                  <div class="number" data-num="75"></div>
                 </div>
               </div>
             </div>
@@ -325,16 +402,22 @@
                   <stop offset="100%" stop-color="#45e3ff" />
                 </linearGradient>
               </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
+              <circle
+                cx="68"
+                cy="68"
+                r="58"
+                stroke-linecap="round"
+                style="--clr: 75"
+              />
             </svg>
           </div>
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>Php</h4><br/>
-                <div class="number" data-num="75">
-                </div>
+                  <h4>MySql</h4>
+                  <br />
+                  <div class="number" data-num="75"></div>
                 </div>
               </div>
             </div>
@@ -350,16 +433,16 @@
                   <stop offset="100%" stop-color="#45e3ff" />
                 </linearGradient>
               </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round" style="--clr:75"  />
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" />
             </svg>
           </div>
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>MySql</h4><br/>
-                <div class="number" data-num="75">
-                </div>
+                  <h4>Figma</h4>
+                  <br />
+                  <div class="number" data-num="90"></div>
                 </div>
               </div>
             </div>
@@ -375,16 +458,16 @@
                   <stop offset="100%" stop-color="#45e3ff" />
                 </linearGradient>
               </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" />
             </svg>
           </div>
           <div class="skill_stily">
             <div class="outer">
               <div class="inner">
                 <div class="conten">
-                  <h4>Figma</h4><br/>
-                <div class="number" data-num="90">
-                </div>
+                  <h4>XD</h4>
+                  <br />
+                  <div class="number" data-num="80"></div>
                 </div>
               </div>
             </div>
@@ -400,156 +483,133 @@
                   <stop offset="100%" stop-color="#45e3ff" />
                 </linearGradient>
               </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
+              <circle cx="68" cy="68" r="58" stroke-linecap="round" />
             </svg>
           </div>
-          <div class="skill_stily">
-            <div class="outer">
-              <div class="inner">
-                <div class="conten">
-                  <h4>XD</h4><br/>
-                <div class="number" data-num="80">
-                </div>
-                </div>
-              </div>
-            </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              width="150px"
-              height="150px"
-            >
-              <defs>
-                <linearGradient id="GradientColor">
-                  <stop offset="10%" stop-color="#a163f7" />
-                  <stop offset="100%" stop-color="#45e3ff" />
-                </linearGradient>
-              </defs>
-              <circle cx="68" cy="68" r="58" stroke-linecap="round"  />
-            </svg>
-          </div>
-          
-          
-          
-          
+        </div>
       </div>
     </section>
-<!-- end skills  -->
-<!-- start portfolio -->
-<section class="portfolio">
-  <div class="container">
-    <div class="header">
-      <img src="assets/images/Business Analysis.png" alt="" />
-      <h1>Portfolio</h1>
-    </div>
-    <div class="row">
-      <div class="col col-lg-12 col-sm-6">
-        <article class="portfolio-box " data-aos="zoom-in">  
-  
-          <div class="btn-container">  
-           <button class="tab-btn active" data-id="all">all</button>  
-           <button class="tab-btn" data-id="web">web</button> 
-         <button class="tab-btn" data-id="Graphic">Graphic</button>  
-          </div>  
-          <div class="portfolio-content">  
-           <div class="content active" id="all">  
-             
-           </div>  
-   
-           <div class="content" id="web">  
-            
-           </div>  
-  
-           <div class="content" id="Graphic">  
-            
-           </div>   
-          </div>  
-         </article>  
+    <!-- end skills  -->
+    <!-- start portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="header">
+          <img src="assets/images/Business Analysis.png" alt="Business" />
+          <h1>Portfolio</h1>
+        </div>
+        <div class="row">
+          <div class="col col-lg-12 col-sm-6">
+            <article class="portfolio-box" data-aos="zoom-in">
+              <div class="btn-container">
+                <button class="tab-btn active" data-id="all">all</button>
+                <button class="tab-btn" data-id="web">web</button>
+                <button class="tab-btn" data-id="Graphic">Graphic</button>
+              </div>
+              <div class="portfolio-content">
+                <div class="content active" id="all"></div>
+
+                <div class="content" id="web"></div>
+
+                <div class="content" id="Graphic"></div>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- end  portfolio-->
-<!-- start contact -->
-<section class="contact">
-<div class="container">
-  <div class="row">
-    <div class="col col-lg-6 col-sm-12">
-      <div class="menu">
-        <div class="toggle"></div>
-        <li style="--i: 0">
-          <a href="#"><img src="assets/images/f.png" alt=""></a>
-        </li>
-        <li style="--i: 1">
-          <a href="#"><img src="assets/images/i.png" alt=""></a>
-        </li>
-        <li style="--i: 2">
-          <a href="#"><img src="assets/images/w.png" alt=""></a>
-        </li>
-        <li style="--i: 3">
-          <a href="#"><img src="assets/images/m.png" alt=""></a>
-        </li>
-        <li style="--i: 4">
-          <a href="#"><img src="assets/images/l.png" alt=""></a>
-        </li>
-        <li style="--i: 5">
-          <a href="#"><img src="assets/images/t.png" alt=""></a>
-        </li>
-        <li style="--i: 6">
-          <a href="#"><img src="assets/images/s.png" alt=""></a>
-        </li>
-        <li style="--i: 7">
-          <a href="#"><img src="assets/images/tel.png" alt=""></a>
-        </li>
+    </section>
+    <!-- end  portfolio-->
+    <!-- start contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-6 col-sm-12">
+            <div class="menu">
+              <div class="toggle">
+                <img src="./assets/images/logo.png" alt="Mohammad Arok Logo" />
+              </div>
+              <ul>
+                <li style="--i: 0">
+                  <a href="#" title="facebook"
+                    ><img src="assets/images/f.png" alt="facebook"
+                  /></a>
+                </li>
+                <li style="--i: 1">
+                  <a href="#" title="instagram"
+                    ><img src="assets/images/i.png" alt="instagram"
+                  /></a>
+                </li>
+                <li style="--i: 2">
+                  <a href="#" title="whatsapp"
+                    ><img src="assets/images/w.png" alt="whatsapp"
+                  /></a>
+                </li>
+                <li style="--i: 3">
+                  <a href="#" title="messenger"
+                    ><img src="assets/images/m.png" alt="messenger"
+                  /></a>
+                </li>
+                <li style="--i: 4">
+                  <a href="#" title="linkedin"
+                    ><img src="assets/images/l.png" alt="linkedin"
+                  /></a>
+                </li>
+                <li style="--i: 5">
+                  <a href="#" title="twitter"
+                    ><img src="assets/images/t.png" alt="twitter"
+                  /></a>
+                </li>
+                <li style="--i: 6">
+                  <a href="#" title="skype"
+                    ><img src="assets/images/s.png" alt="skype"
+                  /></a>
+                </li>
+                <li style="--i: 7">
+                  <a href="#" title="telegram"
+                    ><img src="assets/images/tel.png" alt="telegram"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-lg-6 col-sm-12">
+            <img
+              src="assets/images/mohammad-vactore.png"
+              alt="Mohammad vector"
+            />
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col col-lg-6 col-sm-12">
-      <img src="assets/images/mohammad-vactore.png" alt="">
-    </div>
-  </div>
-</div>
-</section>
-<!-- end contact -->
-<!-- start footer -->
-<footer>
-  <div class="conten-text-footer">
-    <p>&copy; All reqest hase reseved for </p>
-    <h3>Mohammad Arok</h3>
-  </div>
-</footer>
-<!-- end footer -->
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J581WK46Y6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    </section>
+    <!-- end contact -->
+    <!-- start footer -->
+    <footer>
+      <div class="conten-text-footer">
+        <p>&copy; All reqest hase reseved for</p>
+        <h3>Mohammad Arok</h3>
+      </div>
+    </footer>
+    <!-- end footer -->
 
-  gtag('config', 'G-J581WK46Y6');
-</script>
-
-
-
-
-
-
-
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <!--  ===AOS===  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- ===BOTSTRAP FILE=== -->
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--  === TYPED ANIMATION === -->
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script src="./assets/js/text animation.js"></script>
+
+    <!-- JAVASCRIPT FILE -->
     <script src="./assets/js/skills.js"></script>
     <script type="module" src="./assets/js/portfolio.js"></script>
     <script src="assets/js/btn-top.js"></script>
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/loader.js"></script>
+
+    <!--  === END ===  -->
   </body>
 </html>

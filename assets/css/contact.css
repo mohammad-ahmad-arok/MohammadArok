@@ -1,5 +1,5 @@
 .col img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .menu{
@@ -11,6 +11,10 @@
     align-items: center;
 
 
+}
+.menu ul{
+    list-style: none;
+    margin-top: -60px;
 }
  .menu li{
     position: absolute;
@@ -83,11 +87,13 @@
     -ms-transition: transform 1.25s;
     -o-transition: transform 1.25s;
 }
+
+
 .menu.active .toggle{
-    transform: rotate(315deg);
-    -webkit-transform: rotate(315deg);
-    -moz-transform: rotate(315deg);
-    -ms-transform: rotate(315deg);
-    -o-transform: rotate(315deg);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
 } 
 

@@ -141,18 +141,19 @@
  
 } 
 
-.link-btn i{
+.link-btn svg{
   margin-top: 10px;
   padding: 30px;
+  width: 100px;
+  height: 100px;
+  fill: #dadada !important;
   background: #fff;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  font-size: 30px;
   margin-left:85%;
-  color: #cccccc;
   cursor: pointer;
   transition:all 0.2s ease-in-out;
   -webkit-transition:all 0.2s ease-in-out;
@@ -160,8 +161,8 @@
   -ms-transition:all 0.2s ease-in-out;
   -o-transition:all 0.2s ease-in-out;
 }
-.link-btn i:hover{
-  color: #45e3ff;
+.link-btn svg:hover{
+  fill: #45e3ff !important;
   
 }
 
@@ -175,8 +176,8 @@
    height: 200px;
   }
  
-  .link-btn i{
-    margin-top: -60px;
+  .link-btn svg{
+    margin-top: -40px;
     margin-left:81%;
   }
 }

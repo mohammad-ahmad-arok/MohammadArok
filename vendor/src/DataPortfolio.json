@@ -5,71 +5,112 @@
       "explain": "lorem for test it",
       "img": "./assets/images/culculeter.jpg",
       "link": "./vendor/src/Calculator/index.html",
-      "type": "web"
+      "type": "web",
+      "alt": "Calculator"
     },
     {
       "titel": "food",
       "explain": "lorem for test it",
       "img": "./assets/images/food.jpg",
       "link": "./vendor/src/food/index.html",
-      "type": "web"
+      "type": "web",
+      "alt": "food"
     },
     {
       "titel": "Login",
       "explain": "lorem for test it",
       "img": "./assets/images/login.jpg",
       "link": "./vendor/src/login/index.html",
-      "type": "Graphic"
+      "type": "web",
+      "alt": "Login"
     },
     {
       "titel": "boot",
       "explain": "lorem for test it",
       "img": "./assets/images/boot.jpg",
       "link": "./vendor/src/boot/index.html",
-      "type": "Graphic"
-    }
-    ,
+      "type": "web",
+      "alt": "boot"
+    },
     {
       "titel": "boot2",
       "explain": "lorem for test it",
       "img": "./assets/images/boot2.jpg",
       "link": "./vendor/src/boot2/index.html",
-      "type": "Graphic"
-    }
-    ,
-   
+      "type": "web",
+      "alt": "boot2"
+    },
     {
       "titel": "color",
       "explain": "lorem for test it",
       "img": "./assets/images/color.jpg",
       "link": "./vendor/src/roundom color/index.html",
-      "type": "Graphic"
-    }
-    ,
+      "type": "web",
+      "alt": "color"
+    },
     {
       "titel": "software company",
       "explain": "lorem for test it",
-      "img": "./assets/images/softwaer.jpg",
+      "img": "./assets/images/softwear.jpg",
       "link": "./vendor/src/software company/index.html",
-      "type": "Graphic"
-    }
-    ,
+      "type": "web",
+      "alt": "software company"
+    },
     {
       "titel": "web_for_soft_company",
       "explain": "lorem for test it",
       "img": "./assets/images/softwaer2.jpg",
       "link": "./vendor/src/web_for_soft_company/index.html",
-      "type": "Graphic"
-    }
-    ,
+      "type": "web",
+      "alt": "web_for_soft_company"
+    },
     {
       "titel": "coffe",
       "explain": "lorem for test it",
       "img": "./assets/images/coffe.jpg",
       "link": "./vendor/src/coffe/index.html",
-      "type": "Graphic"
+      "type": "web",
+      "alt": "coffe"
+    },
+    {
+      "titel": "Mohammad Logo",
+      "explain": "lorem for test it",
+      "img": "./assets/images/my logo.jpg",
+      "link": "",
+      "type": "design",
+      "alt": "Mohammad Logo"
+    },
+    {
+      "titel": "Y&A Logo",
+      "explain": "lorem for test it",
+      "img": "./assets/images/farmace.jpg",
+      "link": "",
+      "type": "design",
+      "alt": "Y&A Logo"
+    },
+    {
+      "titel": "Fixer Logo",
+      "explain": "lorem for test it",
+      "img": "./assets/images/fixer.jpg",
+      "link": "",
+      "type": "design",
+      "alt": "Fixer Logo"
+    },
+    {
+      "titel": "SoliSoft Logo",
+      "explain": "lorem for test it",
+      "img": "./assets/images/solisoft.jpg",
+      "link": "",
+      "type": "design",
+      "alt": "SoliSoft Logo"
+    },
+    {
+      "titel": "UX/UI protfolo design",
+      "explain": "lorem for test it",
+      "img": "./assets/images/m1.png",
+      "link": "",
+      "type": "design",
+      "alt": "UX/UI protfolo design"
     }
-    
-    
   ]
 }

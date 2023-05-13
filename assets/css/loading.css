@@ -16,7 +16,7 @@ flex-direction: column;
 flex-wrap: nowrap;
 }
 .loading-screen img{
-    width: 100%;
+   max-width: 100%;
 }
 .spinner-border{
     width: 2.5rem !important;

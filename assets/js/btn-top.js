@@ -1,4 +1,4 @@
-const btnTop = document.getElementById('btn-top');
+const btnTop = document.querySelector('.btn-top svg');
 window.onscroll = () => {
     scrollfun();
 }

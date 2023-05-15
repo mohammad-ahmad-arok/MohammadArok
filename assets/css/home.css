@@ -40,7 +40,7 @@ section.home .row .col h2 span{
     backdrop-filter: blur(15px);
 }
 .btn-group ul li a{
-    color: #fff;
+    color: var(--font-color);
 }
 @media screen and (max-width:767px) {
     section.home .row{

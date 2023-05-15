@@ -106,7 +106,8 @@ a.btn{
     border: none;
 
 }
-.btn-top{
+
+.btn-top svg{
     position: fixed;
     bottom:3%;
     right: 2%;
@@ -118,17 +119,14 @@ a.btn{
     -o-border-radius: 50%;
     z-index: 10000;
     display: block;
-    transition: all 0.7s ease-in-out;
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -ms-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-}
-.btn-top svg{
     width: 60px;
     height: 60px;
     padding: 20px;
     fill: #fff !important;
     cursor: pointer;
-
+    transition: all 0.9s ease-in-out;
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -ms-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
 }

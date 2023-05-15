@@ -16,7 +16,15 @@ flex-direction: column;
 flex-wrap: nowrap;
 }
 .loading-screen img{
-   max-width: 100%;
+    max-width: 300px;
+}
+.conten-loder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .spinner-border{
     width: 2.5rem !important;

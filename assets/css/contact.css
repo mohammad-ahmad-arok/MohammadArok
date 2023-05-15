@@ -1,11 +1,12 @@
-.col img{
+.contact .col.vector  img{
     width: 100%;
 }
 
+
 .menu{
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,8 +20,8 @@
  .menu li{
     position: absolute;
     list-style: none;
-    left:0;
-    transform-origin: 175px;
+    left:-20px;
+    transform-origin: 170px;
     transition:all 0.9s ease-in-out;
     transition-delay: calc(0.9s * var(--i));
     -webkit-transition:all 0.9s ease-in-out;
@@ -87,7 +88,9 @@
     -ms-transition: transform 1.25s;
     -o-transition: transform 1.25s;
 }
-
+.toggle img{
+    width: 100%;
+}
 
 .menu.active .toggle{
     transform: rotate(360deg);
@@ -97,3 +100,14 @@
     -o-transform: rotate(360deg);
 } 
 
+@media(max-width:600px) {
+    .contact .col{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+        
+    }
+    .contact .col.vector  img{
+        width: 300px;
+    }
+}

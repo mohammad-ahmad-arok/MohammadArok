@@ -76,15 +76,23 @@
       "titel": "Mohammad Logo",
       "explain": "lorem for test it",
       "img": "./assets/images/my logo.jpg",
-      "link": "",
+      "link": "https://pin.it/2scERxM",
       "type": "design",
       "alt": "Mohammad Logo"
+    },
+    {
+      "titel": "Dachbord Windos app",
+      "explain": "lorem for test it",
+      "img": "./assets/images/control paje.jpg",
+      "link": "https://pin.it/62g9FI6",
+      "type": "design",
+      "alt": "Dachbord Windos app"
     },
     {
       "titel": "Y&A Logo",
       "explain": "lorem for test it",
       "img": "./assets/images/farmace.jpg",
-      "link": "",
+      "link": "https://pin.it/7lifk0Z",
       "type": "design",
       "alt": "Y&A Logo"
     },
@@ -92,7 +100,7 @@
       "titel": "Fixer Logo",
       "explain": "lorem for test it",
       "img": "./assets/images/fixer.jpg",
-      "link": "",
+      "link": "https://pin.it/6YUTjqe",
       "type": "design",
       "alt": "Fixer Logo"
     },
@@ -100,7 +108,7 @@
       "titel": "SoliSoft Logo",
       "explain": "lorem for test it",
       "img": "./assets/images/solisoft.jpg",
-      "link": "",
+      "link": "https://pin.it/3FGSKBe",
       "type": "design",
       "alt": "SoliSoft Logo"
     },
@@ -108,7 +116,7 @@
       "titel": "UX/UI protfolo design",
       "explain": "lorem for test it",
       "img": "./assets/images/m1.png",
-      "link": "",
+      "link": "https://pin.it/5pvEo8L",
       "type": "design",
       "alt": "UX/UI protfolo design"
     }

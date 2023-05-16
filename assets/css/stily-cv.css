@@ -164,7 +164,7 @@ body{
 }
 
 p {
-    color: var(--p-color);
+    color: var(--font-color);
 }
 
 .about .box {
@@ -202,7 +202,7 @@ p {
 
 .skills .box h4 {
     text-transform: uppercase;
-    color: #848c99;
+    color: var(--p-color);
     font-weight: 500;
 }
 
